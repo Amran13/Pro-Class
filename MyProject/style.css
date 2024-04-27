@@ -1,0 +1,82 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 70px;
+    gap: 150px;
+    margin-bottom: 100px;
+}
+
+
+.rounded-img{
+    width: 250px;
+}
+
+.more{
+    background-color: orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    /* border: orangered; */
+}
+
+/* Custom Class */
+.button{
+    border: 2px solid orange;
+    padding: 7px 14px;
+    color: orange;
+    background-color: white;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.lab-item{
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.lab-item-img{
+    width: 30px;
+}
+
+
+.team-section{
+    background-color: orangered;
+    padding: 35px;
+    margin-top: 100px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.team-doctor{
+    width: 250px;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+.team-doctor>img{
+    margin-left: 50px;
+}
+
+.team-img{
+    width: 150px;
+    height: 140px;
+}
+
+
+.middle{
+    text-align: center;
+}
